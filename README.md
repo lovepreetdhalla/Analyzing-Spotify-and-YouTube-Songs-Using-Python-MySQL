@@ -19,19 +19,20 @@ Data was provided by HiCounselor.
 
 Data Preprocessing Using Python Programming and connecting to Database :
 
-Droping unnecessary columns
-Droping null values
-Droping duplicate values
-Data type conversion
-Renaming the column
-Droping records which starts with special characters
-Creating new column on the basis of some conditions
-Saving newly cleaned dataset into csv file format
-Converting dataframe into SQL Table, Uploading Table into phpmyadmin server and solving queries.
-Using SQL Queries To Solve Problem Statements :
+• Droping unnecessary columns
+• Droping null values
+• Droping duplicate values
+• Data type conversion
+• Renaming the column
+• Droping records which starts with special characters
+• Creating new column on the basis of some conditions
+• Saving newly cleaned dataset into csv file format
+• Converting dataframe into SQL Table, Uploading Table into phpmyadmin server and solving queries.
 
-Aggregating the data
-Grouping the data
-Ordering the data
-Using addition of two columns to show as a calculated column
+ Using SQL Queries To Solve Problem Statements :
+
+• Aggregating the data
+• Grouping the data
+• Ordering the data
+• Using addition of two columns to show as a calculated column
 
