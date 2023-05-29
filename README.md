@@ -10,3 +10,9 @@ The Project will consist of 2 modules:
 Module 1: Data Pre-processing data using Python
 
 Module 2: Analyzing data using SQL
+
+# Data Source
+
+Data was provided by HiCounselor.
+![spotify](https://github.com/lovepreetdhalla/Analyzing-Spotify-and-YouTube-Songs-Using-Python-MySQL/assets/15218972/6fa47c3f-e314-4911-91ec-04f6ab0e91e2)
+
