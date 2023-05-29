@@ -52,7 +52,7 @@ Data Pre-processing is one of the important steps in data analytics because data
 * Task 11 : Data Export and Download : Saving and accessing 'Cleaned_dataset.csv'(Export the data to a CSV file named "cleaned_dataset.csv" and enable downloading by providing a clickable file name, allowing users to access and retrieve the file with ease).<br />
 * Task 12 : Module 1 completion : Creating MySQL Table from exported 'Cleaned_dataset.csv'(Create a MySQL table named "cleaned_dataset" by utilizing the exported file, "cleaned_dataset.csv". Follow these steps: 1. Download the CSV file. 2. Create the table using the CSV file, either through an online editor or by executing SQL commands. 3. Click "Run Test" to conclude Module 1).<br />
 # All python codes for Data-Preprocessing and converting to new csv file.
-```
+``` py
 import pandas as pd
 import numpy as np
 import warnings
