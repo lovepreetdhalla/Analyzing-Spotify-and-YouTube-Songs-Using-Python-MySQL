@@ -170,7 +170,38 @@ def export_the_cleaned_dataset():
 
 * Which Album types are more prominent on Spotify?
 
-Task 7 : Write an SQL query to solve the given problem statement.
+## Task 7 : Write an SQL query to solve the given problem statement.
 
-Spotify's most loved song tracks are to be declared soon. Help Spotify choose the top 5 most streamed+youtube viewed song track.
+* Spotify's most loved song tracks are to be declared soon. Help Spotify choose the top 5 most streamed+youtube viewed song track.
+## All the queries to solve the above mentioned problem statements :
+``` sql
+##code
+# Solution: Task 1 : 
+SELECT track,Views FROM cleaned_dataset ORDER BY Views DESC LIMIT 1;
+
+##code
+# Solution : Task 2 : 
+SELECT track,Stream FROM cleaned_dataset WHERE most_playedon="spotify" ORDER BY Stream DESC LIMIT 1;
+
+##code
+# Solution : Task 3 : 
+SELECT track,EnergyLiveness FROM cleaned_dataset ORDER BY EnergyLiveness DESC LIMIT 5;
+
+##code
+# Solution : Task 4 : 
+SELECT COUNT(track),most_playedon FROM cleaned_dataset WHERE artist="Black Eyed Peas" GROUP BY most_playedon;
+
+##code
+# Solution : Task 5 : 
+SELECT track,likes,energy,tempo FROM cleaned_dataset WHERE artist="gorillaz" AND most_playedon="spotify" ORDER BY Likes DESC LIMIT 1;
+
+##code
+# Solution : Task 6 : 
+SELECT album_type,COUNT(album_type) AS total FROM cleaned_dataset GROUP BY album_type ORDER BY total DESC;
+
+##code
+# Solution : Task 7 : 
+SELECT track,Views + Stream AS total FROM cleaned_dataset WHERE most_playedon="youtube" GROUP BY track ORDER BY total DESC LIMIT 5;
+
+```
 
