@@ -19,7 +19,7 @@ Data was provided by HiCounselor.
 
 Data Preprocessing Using Python Programming and connecting to Database :
 
-• Droping unnecessary columns
+• Droping unnecessary columns <br />
 • Droping null values
 • Droping duplicate values
 • Data type conversion
