@@ -7,4 +7,5 @@ This project helped us understand how a real-world database is analyzed using SQ
 The Project will consist of 2 modules:
 
 Module 1: Data Pre-processing data using Python
+
 Module 2: Analyzing data using SQL
