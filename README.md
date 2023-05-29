@@ -145,4 +145,32 @@ def export_the_cleaned_dataset():
 #Use this final dataset and upload it on the provided database for performing analysis in  MySQL
 #To run this task click on the terminal and click on the run project
 ```
+# Module 2: Data Analysis using SQL
+
+* In this module, we worked on performing data analysis on the pre-processed data from the previous module and conducting Data Analysis using SQL.
+* We generated queries for given problem statements. We performed queries after making connection to phpmyadmin database server.
+
+## Task 1 : Write an SQL query to solve the given problem statement.
+
+* Which is the most viewed song track on youtube?
+## Task 2 : Write an SQL query to solve the given problem statement.
+
+* Which Song track is streamed most on Spotify?
+## Task 3 : Write an SQL query to solve the given problem statement.
+
+* EnergyLiveness ratio is one of the popular ways to measure the quality of a song, which are the top 5 songs that have the highest energyliveness ratio.
+## Task 4 : Write an SQL query to solve the given problem statement.
+
+* Let us assume a situation where an artist named Black Eyed Peas wants to analyze his songs. The artist wants to know which platform is capable of keeping his song track more engaged. To check this he assigns you this task and wants you to report to him where his song tracks are more played on. compare the platforms.
+## Task 5 : Write an SQL query to solve the given problem statement.
+
+* Gorillaz wants to know their most liked song on youtube. Report to them with their most liked song along with the Energy and Tempo of the song.
+
+## Task 6 : Write an SQL query to solve the given problem statement.
+
+* Which Album types are more prominent on Spotify?
+
+Task 7 : Write an SQL query to solve the given problem statement.
+
+Spotify's most loved song tracks are to be declared soon. Help Spotify choose the top 5 most streamed+youtube viewed song track.
 
