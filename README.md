@@ -1,5 +1,6 @@
 # Analyzing-Spotify-and-YouTube-Songs-Using-Python-MySQL
 Data science project - Analyzing Spotify and YouTube Songs Using Python &amp; MySQL
+
 Project Description
 
 This project helped us understand how a real-world database is analyzed using SQL, how to get maximum available insights from the dataset, pre-process the data using Python for better upcoming performance, how a structured query language helps us retrieve useful information from the database
