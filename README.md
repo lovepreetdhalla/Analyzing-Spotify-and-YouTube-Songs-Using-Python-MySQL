@@ -15,4 +15,23 @@ Module 2: Analyzing data using SQL
 
 Data was provided by HiCounselor.
 ![spotify](https://github.com/lovepreetdhalla/Analyzing-Spotify-and-YouTube-Songs-Using-Python-MySQL/assets/15218972/6fa47c3f-e314-4911-91ec-04f6ab0e91e2)
+# Data Analysis Concepts Utilized In This Project
+
+Data Preprocessing Using Python Programming and connecting to Database :
+
+Droping unnecessary columns
+Droping null values
+Droping duplicate values
+Data type conversion
+Renaming the column
+Droping records which starts with special characters
+Creating new column on the basis of some conditions
+Saving newly cleaned dataset into csv file format
+Converting dataframe into SQL Table, Uploading Table into phpmyadmin server and solving queries.
+Using SQL Queries To Solve Problem Statements :
+
+Aggregating the data
+Grouping the data
+Ordering the data
+Using addition of two columns to show as a calculated column
 
